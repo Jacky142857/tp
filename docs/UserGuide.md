@@ -599,6 +599,7 @@ Action | Format, Examples
 **Add Buyer** | `add-b n/NAME p/PHONE_NUMBER [t/TAG]…​` <br> e.g., `add-b n/James Ho p/22224444`
 **Add Buyer Property** | `add-ptb l/LOCATION pr/PRICE_RANGE h/HOUSE_TYPE` <br> e.g., `add-ptb l/Bishan pr/100000,200000 h/hdb`
 **Make Appointment for Buyer** | `appt-b INDEX time/TIME` <br> e.g., `appt-b 1 time/2022-10-10-12-12`
+**Cancel Appointment for Buyer** | `appt-b INDEX time/reset` <br> e.g., `appt-b 1 time/reset`
 **Edit Buyer** | `edit-b INDEX [n/NAME] [p/PHONE] [t/TAG]…​ [time/APPOINTMENT] [h/HOUSE_TYPE] [l/LOCATION] [pr/PRICE_RANGE]`  <br> e.g., `edit-b 2 n/James Ho p/22224444 `
 **Find Buyer** | `find-b field/KEYWORD1 [MORE_KEYWORDS]` <br> e.g., `find-b n/James Jake`
 **Delete Buyer** | `delete-b INDEX`<br> e.g., `delete-b 3`
@@ -608,6 +609,7 @@ Action | Format, Examples
 **Add Seller** | `add-s n/NAME p/PHONE_NUMBER [t/TAG]…​` <br> e.g., `add-s n/James Ho p/22224444`
 **Add Seller Property** | `add-pts a/ADDRESS l/LOCATION pr/PRICE_RANGE h/HOUSE_TYPE` <br> e.g., `add-pts a/Blk 343, Rika Ave 1 #09-1231 l/Bishan pr/100000,200000 h/hdb`
 **Make Appointment for Seller** | `appt-s INDEX time/TIME` <br> e.g., `appt-s 1 time/2022-10-10-12-12`
+**Cancel Appointment for Seller** | `appt-s INDEX time/reset` <br> e.g., `appt-s 1 time/reset`
 **Edit Seller** | `edit-s INDEX [n/NAME] [p/PHONE] [t/TAG]…​ [time/APPOINTMENT] [h/HOUSE_TYPE] [l/LOCATION] [pr/PRICE_RANGE] [a/ADDRESS]`  <br> e.g., `edit-s 2 n/James Ho p/22224444 `
 **Find Seller** | `find-s field/KEYWORD1 [MORE_KEYWORDS]` <br> e.g., `find-s n/James Jake`
 **Delete Seller** | `delete-s INDEX`<br> e.g., `delete-s 3`
